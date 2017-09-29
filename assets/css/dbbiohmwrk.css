@@ -1,0 +1,51 @@
+/* Define Background color for name and define that color for about me*/
+
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    background: url("//Users/deniseballard/Basic-Portfolio/assets/images/vintage-concrete.png")
+
+}
+article{font-size: 20px;float: left; width: 75%;
+font-family:"Helvetica", sans-serif; }
+/*
+Missing from the Formattng is the defined dimensions.
+Need define total widths where the entire content area = 960px
+Main section content width = 650px
+Sidebar is 270px
+Need to add a background image using vintage-concrete.png
+*/
+h1{
+	float:left: auto;width: 35%;height: 25%;
+	font-family:"Times New Roman",serif;
+}
+
+h2{font-family: "Georgia",serif;
+	color: #4aaaa5;}
+
+
+.biophoto
+{width:20%; float: left; margin-right: 30px}
+.icon
+{float:right;}
+
+nav{text-align: center;
+	border: 3px solid #73AD21;
+	clear: right;
+	
+}
+   
+.clearfix{overflow: auto;}
+.container
+{float: right;
+	
+	font-size: 20px;
+	
+}
+
+.main-bio
+{}
+.contact-info
+{}
