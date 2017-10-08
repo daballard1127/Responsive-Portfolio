@@ -4,29 +4,30 @@
 
 <head>
   <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!--added updates from homework solution one -->
+ 
   <title>Contact Info | Denise Ballard</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 </head>
 
 <body>
+  <div class="wrapper">
 
 	<header id ="masterheader">
   <div class ="container">
 <a href="index.html" id = "logo">About Me</a>
 
      <nav>
-      <a href="index.html">About</a>  
-      <a href="contact.html">Contact</a>
-      <a href="portfoilio.html">Portfolio</a>
+      <ul>
+        <li><a href="index.html">About</a> </li> 
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="portfoilio.html">Portfolio</a></li>
+      </ul>
     </nav>
   </div>
 </header> 
 
-  <div id="main-container" class="container">
+ <main class="container">
     <section class="main-section">
       <h1>Contact</h1>
 
@@ -34,7 +35,7 @@
         <ul>
           <li>
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            <input type="text" id="name" name="name" placeholder="Denise Ballard" required="required">
           </li>
           <li>
             <label for="email">Email</label>
@@ -45,27 +46,30 @@
             <textarea id="message" name="message" required="required"></textarea>
           </li>
         </ul>
-        <input type="submit" name="submit">
+        <input type="submit" >
       </form>
 
     </section>
 
     <section class="sidebar">
-      <div >
+      <div id="connect">
         <h2>Connect with Me</h2>
-
-        <a href="https://www.linkedin.com/"> <img src="assets/images/if_linkedin_circle_color_107178.png" class ="social" alt="Picture of Linkedin" ></a>
-		<a href="https://github.com/"><img src="assets/images/if_logo_github_298818.png" class ="social" alt="Pictureof Github"></a>
-		<a href="https://stackoverflow.com">/<img src="assets/images/if_stackoverflow_287529.png" class ="social" alt="Pictureof StackOverFlow"></a>
+    <ul>
+        <li> <a href="https://www.linkedin.com/"> <img src="assets/images/if_linkedin_circle_color_107178.png" class ="social" alt="Picture of Linkedin" ></a></li>
+		    <li> <a href="https://github.com/"><img src="assets/images/if_logo_github_298818.png" class ="social" alt="Pictureof Github"></a></li>
+		    <li><a href="https://stackoverflow.com">/<img src="assets/images/if_stackoverflow_287529.png" class ="social" alt="Pictureof StackOverFlow"></a></li>
+       </ul> 
       </div>
     </section>
+</main>
+<div class="push"></div>
 </div>
 
   
 
   <footer>
     <div class="container">
-      Copyright &copy; 2016 Your Name
+      &copy; Copyright 2016 Your Name
     </div>
   </footer>
 </body>

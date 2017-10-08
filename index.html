@@ -3,29 +3,32 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--added updates from homework one solution; problem with sidebar display on this page. PLEASE NOTE I WAS NOT ABLE to get this page to display correctly from the homework solution of the FIRST assignment;THEREFORE I am not able to get this assignment correct for this page. A downstream ripple effect from first assignment issues.-->
+	 
 <title>About Denise Ballard</title>
 
- <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+ 
  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
-<header id ="masthead">
-	<div class ="container">
-<a href="index.html" id = "logo">Denise Ballard</a>
-
+<div class="wrapper">
+	<header id ="masthead">
+		<div class ="container">
+			<a href="index.html" id = "logo">Denise Ballard</a>
 	<nav>
-	<a href="index.html">About</a>	
-	<a href="contact.html">Contact</a>
-	<a href="portfoilio.html">Portfolio</a>
+		<ul>
+			<li><a href="index.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="portfoilio.html">Portfolio</a></li>
+		</ul>	
 	</nav>
 	</div>
 </header>	
-	<div class ="wrapper">
-<div id="main-container" class="container">	
-	<section class ="main container">
+
+	<!--<div class ="wrapper"> I put it here?-->
+
+<main class="container">	
+	<section class ="main-section">
 	<h1>About Me</h1>
 
 		<img  src="assets/images/DB_picture.jpg" class="auth-image" alt="Picture of DB" >
@@ -60,19 +63,22 @@ in Virgina at Langley Air Force Base, Tactical Headquarters where I had both my 
 
 </p>
 </section>
-</div>
+
 
 <section class="sidebar">
 	<div id="connect">
+		<h2>Connect with Me</h2>
+		<ul>
 
-<h2>Connect with Me</h2>
-
-<a href="https://www.linkedin.com/"> <img src="assets/images/if_linkedin_circle_color_107178.png" class ="social" alt="Picture of Linkedin" ></a>
-<a href="https://github.com/"><img src="assets/images/if_logo_github_298818.png" class ="social" alt="Pictureof Github"></a>
-<a href="https://stackoverflow.com">/<img src="assets/images/if_stackoverflow_287529.png" class ="social" alt="Pictureof StackOverFlow"></a>
+			<li><a href="https://www.linkedin.com/"> <img src="assets/images/if_linkedin_circle_color_107178.png" class ="social" alt="Picture of Linkedin" ></a></li>
+			<li><a href="https://github.com/"><img src="assets/images/if_logo_github_298818.png" class ="social" alt="Pictureof Github"></a></li>
+			<li><a href="https://stackoverflow.com">/<img src="assets/images/if_stackoverflow_287529.png" class ="social" alt="Pictureof StackOverFlow"></a></li>
+		</ul>	
 
 	</div>
   </section>
+</main>
+<div class="push"></div>
 </div>
 
 
@@ -81,8 +87,5 @@ in Virgina at Langley Air Force Base, Tactical Headquarters where I had both my 
 		&copy; Copyright 2017 Denise Ballard
 	</div>
 </footer>
-
 </body>
-
-
 </html>
